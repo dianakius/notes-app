@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const NoteForm = (notes, setNotes) => {
+const NoteForm = ({notes, setNotes}) => {
  const [formData, setFormData] = useState({
   title: '',
   category: 'Work',

@@ -95,7 +95,7 @@ setFormData({
           onChange={handleChange}>
             </textarea>
       </div>
-      <button className="w-full bg-blue-500 text-white py-2 rounded-lg cursor-pointer hover: bg-blue-600">Add Note</button> 
+      <button className="w-full bg-yellow-500 text-white py-2 rounded-lg cursor-pointer hover:bg-yellow-700">Add Note</button> 
     </form>
   );
 };
